@@ -35,8 +35,10 @@ test:
 about:
   home: https://github.com/ciffelia/matplotlib-fontja
   summary: matplotlibを日本語表示に対応させます。(Support matplotlib for Japanese display.)
-  license: MIT
-  license_file: LICENSE
+  license: MIT AND IPA
+  license_file:
+    - LICENSE
+    - src/matplotlib_fontja/fonts/IPA_Font_License_Agreement_v1.0.txt
 
 extra:
   recipe-maintainers:
