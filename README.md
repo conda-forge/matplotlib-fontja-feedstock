@@ -25,8 +25,8 @@ Current build status
 Current release info
 ====================
 
-| Name | Downloads | Version | Platforms |
-| --- | --- | --- | --- |
+| Name                                                                                                                                    | Downloads                                                                                                                                   | Version                                                                                                                                   | Platforms                                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-matplotlib--fontja-green.svg)](https://anaconda.org/conda-forge/matplotlib-fontja) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/matplotlib-fontja.svg)](https://anaconda.org/conda-forge/matplotlib-fontja) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/matplotlib-fontja.svg)](https://anaconda.org/conda-forge/matplotlib-fontja) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/matplotlib-fontja.svg)](https://anaconda.org/conda-forge/matplotlib-fontja) |
 
 Installing matplotlib-fontja
@@ -143,6 +143,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@ciffelia](https://github.com/ciffelia/)
 * [@yu9824](https://github.com/yu9824/)
 

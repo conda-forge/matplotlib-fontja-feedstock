@@ -1,5 +1,5 @@
 {% set name = "matplotlib-fontja" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/matplotlib_fontja-{{ version }}.tar.gz
-  sha256: 23ec82ee445957409df0106aab477b4c43bb56d67e6e5fc8bcb8c7ede11f3ded
+  sha256: eb0ad93eea01ceac6b563bccce9959335bfd487824160712a81984142ffb8e44
 
 build:
   noarch: python
@@ -35,10 +35,11 @@ test:
 about:
   home: https://github.com/ciffelia/matplotlib-fontja
   summary: matplotlibを日本語表示に対応させます。(Support matplotlib for Japanese display.)
-  license: MIT
-  license_file: LICENSE
+  license: MIT AND IPA
+  license_file:
+    - LICENSE
+    - src/matplotlib_fontja/fonts/IPA_Font_License_Agreement_v1.0.txt
 
 extra:
   recipe-maintainers:
-    - ciffelia
     - yu9824
